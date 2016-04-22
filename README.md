@@ -1,2 +1,2 @@
-# Subdomain-Takeover
-PoC purposes
+# Subdomain-Takeover by Karl Aparece
+for PoC purposes only
