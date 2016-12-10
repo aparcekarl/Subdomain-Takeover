@@ -1,2 +1,2 @@
-# Subdomain-Takeover by Karl Aparece
-for PoC purposes only
+#Oooopppppss!!! Wrong Site
+Quora team Needs to Fix this
