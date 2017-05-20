@@ -1,2 +1,2 @@
 #Oooopppppss!!! Wrong Site
-Quora team Needs to Fix this
+Pinterest team Needs to Fix this
