@@ -1,2 +1,2 @@
 #Oooopppppss!!! Wrong Site
-Pinterest team Needs to Fix this
+Shopify team Needs to Fix this
