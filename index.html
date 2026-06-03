@@ -1,1 +1,54 @@
-Benign Subdomain Takeover 
+```html
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Injective Security Test</title>
+
+    <!-- Hidden Base64 Message -->
+    <!-- SW5qZWN0aXZlIFNlY3VyaXR5IFRlc3QgLSBQcm9vZiBvZiBDb25jZXB0IC0gdGVjaHRlc3RpbmdzLm5ldGxpZnkuYXBw -->
+
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background: #0f172a;
+            color: white;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+        }
+
+        .container {
+            text-align: center;
+        }
+
+        .hidden {
+            display: none;
+        }
+    </style>
+</head>
+<body>
+
+<div class="container">
+    <h1>Security Verification Page</h1>
+    <p>Static PoC hosted on Netlify.</p>
+</div>
+
+<div class="hidden" id="msg">
+    SW5qZWN0aXZlIFNlY3VyaXR5IFRlc3QgLSBQcm9vZiBvZiBDb25jZXB0IC0gS2FybCBBcGFyZWNlIC8gQ2FudGluYQ==
+</div>
+
+<script>
+    const encoded = document.getElementById("msg").innerText.trim();
+    const decoded = atob(encoded);
+
+    console.log("Decoded Hidden Message:");
+    console.log(decoded);
+</script>
+
+</body>
+</html>
+```
